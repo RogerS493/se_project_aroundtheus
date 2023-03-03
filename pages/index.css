@@ -36,9 +36,7 @@
 }
 .profile__text {
   display: grid;
-  grid-template-areas:
-    "title button"
-    "description description";
+
   grid-template-columns: minmax(373px);
 }
 
@@ -91,6 +89,13 @@
 .card__heart-button {
   height: 18px;
   width: 21px;
+}
+
+.footer__name {
+}
+
+.footer__copyright {
+  color: #545454;
 }
 
 @media screen and (max-width: 470px) {
