@@ -48,6 +48,7 @@
 .profile__plus-button {
   height: 22px;
   width: 22px;
+  border: white;
 }
 
 .cards {
