@@ -16,6 +16,7 @@
 .profile {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .profile__picture {
@@ -27,22 +28,32 @@
   line-height: 48px;
   font-weight: 500;
   font-size: 42px;
+  grid-area: name;
 }
 
 .profile__description {
   line-height: 22px;
   font-weight: 400;
   font-size: 18px;
+  grid-area: description;
 }
 .profile__text {
   display: grid;
+  grid-template-areas:
+    "name button"
+    "description description";
 
   grid-template-columns: minmax(373px);
+  grid-gap: 25px 16px;
+  align-items: end;
+
+  justify-items: start;
 }
 
 .profile__pencil-button {
   height: 24px;
   width: 24px;
+  grid-area: button;
 }
 
 .profile__plus-button {
@@ -90,6 +101,11 @@
 .card__heart-button {
   height: 18px;
   width: 21px;
+  background: transparent url(../images/heart-inactive.png) center no-repeat;
+}
+
+.card__heart-button:hover {
+  opacity: 0.5;
 }
 
 .footer__name {
