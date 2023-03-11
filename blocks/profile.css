@@ -58,5 +58,5 @@
 
 .profile__plus-button:hover {
   opacity: 0.6;
-  animation: rotation 0.5s linear infinite;
+  transform: rotation 0.5s linear infinite;
 }
