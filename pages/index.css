@@ -1,119 +1,11 @@
-.page {
-  background-color: black;
-  color: white;
-}
-
-.page__content {
-  margin-left: 200px;
-  margin-right: 200px;
-}
-
-.header {
-  margin-top: 45px;
-  max-width: 880px;
-}
-
-.profile {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.profile__picture {
-  height: 120px;
-  width: 120px;
-  border-radius: 60%;
-}
-.profile__name {
-  line-height: 48px;
-  font-weight: 500;
-  font-size: 42px;
-  grid-area: name;
-}
-
-.profile__description {
-  line-height: 22px;
-  font-weight: 400;
-  font-size: 18px;
-  grid-area: description;
-}
-.profile__text {
-  display: grid;
-  grid-template-areas:
-    "name button"
-    "description description";
-
-  grid-template-columns: minmax(373px);
-  grid-gap: 25px 16px;
-  align-items: end;
-
-  justify-items: start;
-}
-
-.profile__pencil-button {
-  height: 24px;
-  width: 24px;
-  grid-area: button;
-}
-
-.profile__plus-button {
-  height: 22px;
-  width: 22px;
-  border: white;
-}
-
-.cards {
-}
-
-.card {
-  display: flex;
-  flex-direction: column;
-  border-radius: 10px;
-  list-style: none;
-}
-.card__list {
-  display: grid;
-  justify-content: center;
-  grid-template-columns: repeat(auto-fit, 282px);
-  grid-gap: 20px 17px;
-  padding: 0px;
-  margin: 0px;
-}
-
-.card__image {
-  height: 282px;
-  width: 282px;
-}
-
-.card__description {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: white;
-  color: black;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-left: 20px;
-  padding-right: 20px;
-  border-radius: 10px;
-}
-
-.card__heart-button {
-  height: 18px;
-  width: 21px;
-  background: transparent url(../images/heart-inactive.png) center no-repeat;
-}
-
-.card__heart-button:hover {
-  opacity: 0.5;
-}
-
-.footer__name {
-}
-
-.footer__copyright {
-  color: #545454;
-}
+@import url(../blocks/card.css);
+@import url(../blocks/page.css);
+@import url(../blocks/header.css);
+@import url(../blocks/profile.css);
+@import url(../blocks/footer.css);
+@import url(../blocks/block.css);
+@import url(../blocks/media.css);
+@import url(../blocks/keyframes.css);
 
 @media screen and (max-width: 470px) {
   .profile {
@@ -121,11 +13,43 @@
   }
 
   .profile__text {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 62px;
+    padding-right: 62px;
+    justify-content: center;
+    margin-top: 62px;
+    font-size: 22px;
+    line-height: 27px;
   }
 
   .profile__description {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 36px;
+    font-size: 14px;
+    line-height: 17px;
   }
 
   .profile__plus-button {
+    margin: 0;
+    width: 100%;
   }
+
+  .profile__pencil-button {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .page__section {
+    margin: 0 20px;
+    max-width: calc(100% - 40px);
+  }
+}
+
+@media screen and (max-width: 800px) {
 }
