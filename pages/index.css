@@ -6,6 +6,7 @@
 @import url(../blocks/block.css);
 @import url(../blocks/media.css);
 @import url(../blocks/keyframes.css);
+@import url(../block/cards.css);
 
 @media screen and (max-width: 470px) {
   .profile {
