@@ -1,3 +1,5 @@
+@import url(../vendor/font.css);
+@import url(../vendor/normalize.css);
 @import url(../blocks/card.css);
 @import url(../blocks/page.css);
 @import url(../blocks/header.css);
@@ -7,7 +9,6 @@
 
 @import url(../blocks/keyframes.css);
 @import url(../blocks/cards.css);
-@import url(../vendor/font.css);
 
 @media screen and (max-width: 470px) {
   .profile {

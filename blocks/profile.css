@@ -14,7 +14,7 @@
   margin-right: 24px;
 }
 .profile__name {
-  font-family: "Inter", "Times New Roman", Times, serif;
+  font-family: "Inter", "Times New Roman", Arial, sans-serif;
   line-height: 48px;
   font-weight: 500;
   font-size: 42px;
@@ -23,7 +23,7 @@
 }
 
 .profile__description {
-  font-family: "Inter", "Times New Roman", Times, serif;
+  font-family: "Inter", "Times New Roman", Arial, sans-serif;
   line-height: 22px;
   font-weight: 400;
   font-size: 18px;
@@ -45,7 +45,8 @@
   height: 24px;
   width: 24px;
   grid-area: button;
-  background: transparent url(../images/pencil.png) center no-repeat;
+  background: transparent url(../images/pencil.svg) center no-repeat;
+  border: 1px solid white;
 }
 
 .profile__pencil-button:hover {
@@ -55,11 +56,11 @@
   height: 50px;
   width: 150px;
   /*background: transparent url(../images/plus.png) center no-repeat;*/
-  background: transparent url(../images/plus\ vector.png) center no-repeat;
+  background: transparent url(../images/plus.svg) center no-repeat;
+  border: 1px solid white;
   margin-left: auto;
 }
 
 .profile__plus-button:hover {
   opacity: 0.6;
-  transform: rotate (45 deg);
 }
