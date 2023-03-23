@@ -39,11 +39,41 @@
   .profile__plus-button {
     margin: 0;
     width: 100%;
+    max-width: 252px;
   }
 
   .profile__pencil-button {
     width: 18px;
     height: 18px;
+  }
+
+  .footer__copyright {
+    padding-top: 50px;
+    padding-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .profile__name {
+    font-family: "Inter", "Times New Roman", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    align-items: center;
+    line-height: 27px;
+  }
+
+  .profile__description {
+    font-family: "Inter", "Times New Roman", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    align-items: center;
+    line-height: 17px;
+  }
+
+  .profile__picture {
+    height: 24px;
+    width: 126px;
+    margin-left: 27px;
   }
 }
 
@@ -56,3 +86,5 @@
 
 @media screen and (max-width: 800px) {
 }
+
+m
