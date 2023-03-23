@@ -20,6 +20,10 @@
   font-size: 42px;
   grid-area: name;
   margin: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 373px;
 }
 
 .profile__description {
@@ -29,6 +33,10 @@
   font-size: 18px;
   grid-area: description;
   margin: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 415px;
 }
 .profile__text {
   display: grid;
@@ -47,6 +55,7 @@
   grid-area: button;
   background: transparent url(../images/pencil.svg) center no-repeat;
   border: 1px solid white;
+  cursor: pointer;
 }
 
 .profile__pencil-button:hover {
@@ -59,6 +68,7 @@
   background: transparent url(../images/plus.svg) center no-repeat;
   border: 1px solid white;
   margin-left: auto;
+  cursor: pointer;
 }
 
 .profile__plus-button:hover {

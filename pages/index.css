@@ -19,8 +19,8 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    padding-left: 62px;
-    padding-right: 62px;
+    /*padding-left: 62px;
+    padding-right: 62px;*/
     justify-content: center;
     margin-top: 62px;
     font-size: 22px;
@@ -71,9 +71,7 @@
   }
 
   .profile__picture {
-    height: 24px;
-    width: 126px;
-    margin-left: 27px;
+    margin: 0;
   }
 }
 
@@ -86,5 +84,3 @@
 
 @media screen and (max-width: 800px) {
 }
-
-m
