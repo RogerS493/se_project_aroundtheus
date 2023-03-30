@@ -10,77 +10,11 @@
 @import url(../blocks/keyframes.css);
 @import url(../blocks/cards.css);
 
-@media screen and (max-width: 470px) {
-  .profile {
-    flex-direction: column;
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
   }
-
-  .profile__text {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    /*padding-left: 62px;
-    padding-right: 62px;*/
-    justify-content: center;
-    margin-top: 62px;
-    font-size: 22px;
-    line-height: 27px;
+  to {
+    transform: rotate(45deg);
   }
-
-  .profile__description {
-    width: 100%;
-    text-align: center;
-    justify-content: center;
-    margin-bottom: 36px;
-    font-size: 14px;
-    line-height: 17px;
-  }
-
-  .profile__plus-button {
-    margin: 0;
-    width: 100%;
-    max-width: 252px;
-  }
-
-  .profile__pencil-button {
-    width: 18px;
-    height: 18px;
-  }
-
-  .footer__copyright {
-    padding-top: 50px;
-    padding-bottom: 32px;
-  }
-}
-
-@media screen and (max-width: 410px) {
-  .profile__name {
-    font-family: "Inter", "Times New Roman", Arial, sans-serif;
-    font-weight: 500;
-    font-size: 22px;
-    align-items: center;
-    line-height: 27px;
-  }
-
-  .profile__description {
-    font-family: "Inter", "Times New Roman", Arial, sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    align-items: center;
-    line-height: 17px;
-  }
-
-  .profile__picture {
-    margin: 0;
-  }
-}
-
-@media screen and (max-width: 1100px) {
-  .page__section {
-    margin: 0 20px;
-    max-width: calc(100% - 40px);
-  }
-}
-
-@media screen and (max-width: 800px) {
 }
