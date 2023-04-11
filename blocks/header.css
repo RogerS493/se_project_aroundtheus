@@ -23,10 +23,10 @@
   color: white;
 }
 
-@media screen and(max-width: 320px) {
+@media screen and (max-width: 320px) {
   .header {
-    width: 126px;
-    height: 24px;
+    /* width: 126px; */
+    /* height: 24px; */
     padding-left: 27px;
     padding-top: 28px;
     padding-bottom: 32px;
@@ -41,4 +41,18 @@
     padding: 0;
     margin: 0;
   }*/
+}
+
+@media screen and (max-width: 571px) {
+  .header__logo {
+    width: 126px;
+    height: 24px;
+  }
+  .header {
+    /* width: 126px; */
+    /* height: 24px; */
+    padding-left: 27px;
+    padding-top: 28px;
+    padding-bottom: 32px;
+  }
 }
