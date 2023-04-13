@@ -48,4 +48,4 @@ The way you'll do this at work is by exporting images directly from Figma — we
 
 **Link**
 
-https://github.com/RogerS493/se_project_aroundtheus
+https://rogers493.github.io/se_project_aroundtheus
