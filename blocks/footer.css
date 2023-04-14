@@ -12,6 +12,13 @@
   line-height: 21px;
 }
 
+@media screen and (max-width: 571px) {
+  .footer__copyright {
+    padding-top: 50px;
+    padding-bottom: 32px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .footer__copyright {
     font-size: 14px;
