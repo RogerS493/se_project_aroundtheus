@@ -1,0 +1,76 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 19px;
+  padding-right: 19px;
+  /* display: none; */
+}
+.modal_opened {
+  /* display: flex; */
+}
+
+.modal__container {
+  background-color: rgb(255, 255, 255);
+  padding-left: 36px;
+  padding-top: 34px;
+  padding-bottom: 36px;
+  padding-right: 36px;
+  border-radius: 10px;
+  position: relative;
+  width: 430px;
+  height: 330px;
+  max-width: 100%;
+}
+
+.modal__close {
+  background-image: url("../images/close.svg");
+  border: none;
+  background-color: transparent;
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -45px;
+  right: -45px;
+  cursor: pointer;
+}
+
+.modal__heading {
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 29.2px;
+  color: rgb(0, 0, 0);
+}
+
+.modal__button {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+.modal__form {
+}
+
+.modal__form-name {
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.9px;
+  border: none;
+}
+
+.modal__form-description {
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.9px;
+  border: none;
+}
