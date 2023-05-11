@@ -98,15 +98,24 @@
   padding-bottom: 14px;
 }
 
-@media screen and (max-width: 497px) {
+@media screen and (max-width: 460px) {
   .modal__close {
     width: 26px;
     height: 26px;
+    top: -44px;
+    left: 375px;
   }
 }
 
 @media screen and (max-width: 500px) {
   .modal__heading {
     padding-bottom: 75px;
+  }
+  .modal__container {
+    height: 322px;
+    width: 282px;
+  }
+
+  .modal__button {
   }
 }
