@@ -26,7 +26,11 @@
           />
           <div class="profile__text">
             <h1 class="profile__name">Jacques Cousteau</h1>
-            <button type="button" class="profile__pencil-button">
+            <button
+              type="button"
+              class="profile__pencil-button"
+              id="profile-edit-button"
+            >
               <!---<img src="./images/pencil.png" alt="Pencil Edit" />-->
             </button>
             <p class="profile__description">Explorer</p>
@@ -116,7 +120,7 @@
       </footer>
     </div>
 
-    <div class="modal">
+    <div class="modal" id="#profile-edit-modal">
       <div class="modal__container">
         <button class="modal__close"></button>
         <p class="modal__heading">Edit Profile</p>
