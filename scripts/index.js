@@ -49,7 +49,7 @@ function closePopup() {
   profileEditModal.classList.remove("modal_opened");
 }
 
-function getCardElement(cardData);
+// function getCardElement(cardData);
 
 // Event Handlers
 function handleProfileEditSubmit(e) {
