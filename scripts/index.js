@@ -70,8 +70,9 @@ profileEditButton.addEventListener("click", () => {
 });
 
 modalCloseButton.addEventListener("click", () => {
-  //   modalCloseButton.classList.remove("modal_opened");
-  profileEditModal.classList.remove("modal_opened");
+  // modalCloseButton.classList.remove("modal_opened");
+  // profileEditModal.classList.remove("modal_opened");
+  closePopup();
 });
 
 profileEditModal.addEventListener("submit", handleProfileEditSubmit);

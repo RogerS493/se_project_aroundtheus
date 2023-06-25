@@ -42,6 +42,7 @@
   top: -45px;
   right: -45px;
   cursor: pointer;
+  background-position: center;
 }
 
 .modal__heading {
@@ -103,13 +104,15 @@
     width: 26px;
     height: 26px;
     top: -44px;
-    left: 375px;
+    /* left: 375px; */
+    right: 0px;
   }
 }
 
 @media screen and (max-width: 500px) {
   .modal__heading {
     padding-bottom: 75px;
+    /* font-size: 18px; */
   }
   .modal__container {
     height: 322px;
