@@ -83,11 +83,13 @@ initialCards.forEach((cardData) => {
   // access the card title and image and store them in variables
   const cardImageEL = cardElement.querySelector(".card__image");
   const cardTitleEL = cardElement.querySelector(".card__title");
-  const cardAltEL = cardElement.querySelector(".card__description");
+  // const cardAltEL = cardElement.querySelector(".card__description");
   // set the path to the image to the link field of the object
   cardImageEL.src = cardData.link;
   // set the image alt text to the name field of the object
-  cardAltEL.textcontent = cardData.name;
+  cardImageEL.alt = cardData.name;
+
+  // cardAltEL.textcontent = cardData.name;
   // set the card title to the name field of the object, too
   cardTitleEL.textContent = cardData.name;
   // return the ready HTML element with the filled-in data
