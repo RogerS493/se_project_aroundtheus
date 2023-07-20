@@ -94,7 +94,7 @@ profileEditButton.addEventListener("click", () => {
   //   profileEditModal.classList.remove("modal_opened");
 });
 
-// profileEditButton.addEventListener("click", () => openModal(profileEditModal);
+profileEditButton.addEventListener("click", () => openModal(profileEditModal));
 
 profileModalCloseButton.addEventListener(
   "click",
